@@ -1,0 +1,89 @@
+<div id="about">
+  
+ <h3>About</h3>
+ 
+ </div>
+  
+ <div id="aboutjoel">
+  
+ <h3>Joel Reed</h3>
+ 
+ <div id="aboutjoeltext">
+ 
+ <p>My name is Joel Reed. I'm a Front-End Web and e-Learning Developer at the <strong><a href="http://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a></strong> (UK Top 10 University), having previously worked for <strong><a href="http://www.vimeo.com/33404018" class="lightbox" title="© 2013 Harper Adams University - Video Edited by James Roscoe">Harper Adams University</a></strong> in the e-Learning department.</p>
+ 
+ <p>I graduated from <strong><a href="http://www.wlv.ac.uk/" target="_blank">The University of Wolverhampton</a></strong> with <strong>First Class Honours</strong> in <strong>Interactive Media</strong> back in 2010.</p>
+ 
+ <p>I specialise in designing and developing high quality, interactive websites and e-Learning content for both the commercial and educational sectors.</p>
+ 
+ <p>My work has been featured in numerous CSS Galleries across the web including <strong><a href="http://www.cssmania.com/galleries/2011/09/30/joel-reed/" target="_blank">CSS Mania</a></strong> and <strong><a href="http://www.csswinner.com/details/joel-reed/1137" target="_blank">CSS Winner</a></strong>. More recently my designs have been published in '<strong><a href="http://www.amazon.co.uk/The-Designers-Idea-Book-Volume/dp/1440323968" target="_blank">The Web Designer's Idea Book, Volume 3</a></strong>' by <em>Patrick McNeil</em>.
+ 
+ <p><strong>I’m always open to exciting job opportunities</strong>, with my Curriculum Vitae available<strong> <a href="#contactheader" class="scroll">on request</a></strong>.</p>
+ 
+ </div>
+  
+ </div>
+ 
+ <div id="toolbox">
+ 
+ <h4>Toolbox</h4>
+ 
+ </div>
+ 
+ <div id="adobe-icons">
+ 
+ <div id="photoshop-icon"><h6>Photoshop</h6></div>
+ 
+ <div id="fireworks-icon"><h6>Fireworks</h6></div>
+ 
+ <div id="dreamweaver-icon"><h6>Dreamweaver</h6></div>
+ 
+ <div id="captivate-icon"><h6>Captivate</h6></div>
+ 
+ <div id="flash-icon"><h6>Flash</h6></div>
+ 
+ <div id="soundbooth-icon"><h6>Soundbooth</h6></div>
+ 
+ <div id="prem-icon"><h6>Premiere</h6></div>
+ 
+ <div id="lightroom-icon"><h6>Lightroom</h6></div>
+ 
+ </div>
+ 
+ <div id="skillset">
+ 
+ <h4>Skillset</h4>
+ 
+ </div>
+ 
+ <div id="skillset-dots">
+ 
+ <div id="skillset-xhtml"><h6>HTML5</h6></div>
+ 
+ <div id="skillset-video"><h6>Video Production</h6></div>
+ 
+ <div id="skillset-css"><h6>CSS3</h6></div>
+ 
+ <div id="skillset-vle"><h6>Moodle Admin</h6></div>
+ 
+ <div id="skillset-as3"><h6>Actionscript 3</h6></div>
+ 
+ <div id="skillset-sound"><h6>Sound Production</h6></div>
+ 
+ <div id="skillset-cms"><h6>Wordpress</h6></div>
+ 
+ <div id="skillset-projman"><h6>Project Management</h6></div>
+ 
+ <div id="skillset-seo"><h6>SEO</h6></div>
+ 
+ <div id="skillset-screencap"><h6>Tutorial Videos</h6></div>
+ 
+ <div id="skillset-typeography"><h6>Typography</h6></div>
+ 
+ <div id="skillset-flash"><h6>Animation</h6></div>
+ 
+ <div id="skillset-articulate"><h6>Articulate</h6></div>
+ 
+ <div id="skillset-design"><h6>Instructional Design</h6></div>
+ 
+ </div>

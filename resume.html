@@ -12,12 +12,10 @@
 <link href="css/style.css" rel='stylesheet' type='text/css' />	
 <script src="js/jquery-1.11.1.min.js"></script>
 </head>
-<body class="res-bg">
-    <!-- Contains all relevant content meant to fit within a fixed screen -->
-<div class="container">
-        <!-- Allows space above and below rows of columns -->
 
-        <!-- <p id="logo"><a href="#"><img src="images/logo.png" alt="Chris Spooner logo" /></a></p> -->
+ 
+<div class="container">
+      
 
 <div class="banner" id="home">
 			<div class="header-top">
@@ -30,7 +28,7 @@
 								<li><a href="index.html">Portfolio</a></li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="resume.html">Resume</a </li>
-								<li><a href="contact.html">Contact</a></li>
+								</li>
 								<div class="clearfix"></div>
 							</ul>
 						</nav>		
@@ -38,11 +36,47 @@
                     </div>
                 </div>
     </div>
-<center><img id = "resume" src ="images/resume.jpg"></center>                 
+   <center><form method="get" action="resume.pdf">
+<button type="submit">Click Here to Download My Resume!</button>
+</form>
+       <form method="get" action="rec.pdf">
+<button type="submit">Click Here for a Rec Letter!</button>
+</form>
+<img id = "resume" src ="../images/resume.jpg"></center>                 
  </div>                    
     </div>
-
+    <script>
+$("#fileRequest").click(function(){ /* code to download? */ });</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>    
 </body>
+
+<hr class = "foot-rule">
+
+     <p class="slogan">
+I love new, passionate, and open ideas! I am always up for chatting or collaborating so feel free to contact me! </p>
+<center>
+    <div class="network-block">
+    <div id = "footer">
+        <div id ="icon">
+                <a href="mailto:alexisbenter@gmail.com"><img src="images/semail.png"></a>
+    </div>
+    
+  <div id ="icon">
+                <a href="https://www.linkedin.com/in/alexis-benter-9ba81aa7"><img src="images/slinkedin.png"></a>
+    </div>
+         
+    <div id ="icon">   <a href="https://www.youtube.com/channel/UCJDwaof5YaKGh57DPqMs7FA"><img src="images/SVIMEO.png"></a></div>
+            
+
+          
+                <div id ="icon"><a href="https://github.com/ajbenter?tab=repositories"><img src="images/sgit.png"></a>
+   </div>
+
+        
+      </div></center>
+    </center></div>
+
+    <br style = "clear: both">
+    
 </html>
