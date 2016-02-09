@@ -561,7 +561,7 @@ p.bottom {
     border-radius: 25px;
     border: 2px solid #65187A ;
     width: 95%;
-    height: 950px;
+    height: 990px;
 }
 
 #sidegroups{
@@ -619,18 +619,49 @@ p.sides {
     padding-bottom: 10px;
 }
 
+#nala {
+    color: #45518D;
+    text-decoration: none;
+    font-style: italic;
+    transition: color .35s ease;
+}
+
+#nala:hover {
+    color: #f8f8f8;
+}
+
+#verg{
+    color: #45518D;
+    text-decoration: none;
+    font-style: italic;
+    transition: color .35s ease;
+    position:relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+
+#verg:hover {
+    color: #f8f8f8;
+}
+
+
 .nala img {
     display: none;
 }
 
  a.nala:hover img { 
-    display:block;
-     top: auto;
+    display: block;
+    float: right;
      margin: auto;
      width:60%;
+     transition: .35s ease;
      position: absolute;
+     left: 0px;
+    top: 0px;
      z-index: 1000;
-     float:right;  
+    padding-left: 30px;
+      
 }
 
 #sideImage {
