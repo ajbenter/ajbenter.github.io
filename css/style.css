@@ -13,7 +13,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html { overflow-y: scroll; }
+
+html { 
+    overflow-y: scroll; 
+}
 
 body {
   background: #fcfcfc url('bg.png'); /* http://subtlepatterns.com/crossword/ */
@@ -24,10 +27,17 @@ body {
   padding-bottom: 100px;
 }
 
-br { display: block; line-height: 1.6em; } 
+br { 
+    display: block; line-height: 1.6em;
+} 
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
-ol, ul { list-style: none; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block; 
+}
+
+ol, ul { 
+    list-style: none; 
+}
 
 input, textarea { 
   -webkit-font-smoothing: antialiased;
@@ -39,13 +49,32 @@ input, textarea {
   outline: none;
 }
 
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
-strong, b { font-weight: bold; }
-em, i { font-style: italic; }
+blockquote, q { 
+    quotes: none; 
+}
 
-table { border-collapse: collapse; border-spacing: 0; }
-img { border: 0; max-width: 100%; }
+blockquote:before, blockquote:after, q:before, q:after { 
+    content: ''; 
+    content: none; 
+}
+
+strong, b { 
+    font-weight: bold; 
+}
+
+em, i { 
+    font-style: italic; 
+}
+
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+
+img { 
+    border: 0; 
+    max-width: 100%; 
+}
 
 .grid {
     position: relative;
@@ -150,26 +179,27 @@ body {
 
 /*--slider--*/
 .top-menu {
-  float: left;
-  margin: .8% auto 0;
+    float: left;
+    margin: .8% auto 0;
     padding-top: 9px;
     padding-bottom: 15px;
- width: 100%;
-  text-align: center;
-    
+    width: 100%;
+    text-align: center;  
 }
+
 .top-menu ul{
 	padding:0;
 }
-.top-menu ul li{
+
+.top-menu ul li {
 	display: inline-block;
 	margin: 0 25px;
 	color: #8B5BC8;
 	font-weight: 900;
 	vertical-align: top;
 }
+
 nav a {
-    
 	position: relative;
 	display: inline-block;
 	outline: none;
@@ -181,15 +211,18 @@ nav a {
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1em;
 }
+
 nav a:hover,
 nav a:focus {
 	outline: none;
 }
+
 /* Effect 16: fall down */
 .cl-effect-16 a {
 	color: #6f8686;
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
+
 .cl-effect-16 a::before {
 	  color: #fff;
 	content: attr(data-hover);
@@ -212,7 +245,8 @@ nav a:focus {
 	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	opacity: 1;
 }
-.top-menu ul li a{
+
+.top-menu ul li a {
    text-decoration: none;
   color: #34353a;
   font-size: 0.9em;
@@ -221,12 +255,9 @@ nav a:focus {
   padding: 0;
   margin: 0 auto;
 }
+
 .top-menu ul li a:hover,.top-menu ul li a.active{
 	  color: #fff;
-}
-
-img {
-    width: 100%;
 }
 
 figure.effect-jazz {
@@ -306,13 +337,11 @@ figure.effect-jazz:hover p {
     margin-bottom:30px;
     position:relative;
     height:100%;
-    
 }
 
 .res-bg {
     background-image: url("../images/bg.jpg");
     background-size:cover;
-  
 }
 
 #content {
@@ -320,46 +349,48 @@ figure.effect-jazz:hover p {
 	margin: 0 auto;
 	padding: 0 60px 30px 60px;
 	background: #fafafa;
-	text-align:center
+	text-align:center;
 }
 
-img {border:2px solid #eee; margin:0px 10px;}
-img:hover {border:2px solid #ccc}
+img { 
+    border:2px solid #eee; 
+    margin:0px 10px;
+    width: 100%;
+}
 
+.sm {
+    font-size:10px; 
+    color:#000; 
+    margin-bottom:2px;
+}
 
+#wrap {
+    width:530px; 
+    margin:20px auto 0; 
+    height:500px;
+}
 
-
-.sm {font-size:10px; color:#000; margin-bottom:2px}
-
-
-
-#wrap {width:530px; margin:20px auto 0; height:500px;}
-h1 {margin-bottom:-150px; text-align:center;font-size:48px; text-shadow:0 1px 0 #ede8d9; }
-
-
-
-
-
+h1 {
+    margin-bottom:-150px; 
+    text-align:center;
+    font-size:48px; 
+    text-shadow:0 1px 0 #ede8d9; 
+}
 
 #footer {
     font-size: 16px;
     width:560px; 
     display: block;
     text-transform: uppercase;
-    
+    align-content: center;
 }
-
 
 #aboutTop {
     width:50%;
     height: 50%;
     margin:auto;
-    padding-top: 15px;
-     
+    padding-top: 15px;  
 }
-
-
-
 
 #icon {
     display: block;
@@ -369,25 +400,20 @@ h1 {margin-bottom:-150px; text-align:center;font-size:48px; text-shadow:0 1px 0 
     display: table-cell;
     margin: 50px;
     position: relative;
-    
-    
-    
 }
 
-.main-title{
+.main-title {
     margin:auto;
     color:#45518D;
     padding-bottom: 7px;
     font-size: 4em;
-    
-  
 }
 
-#greeting{
-    margin-top:1em
+#greeting {
+    margin-top:1em;
 }
 
-hr.red-rule{
+hr.red-rule {
     border:0;
     height:.75em;
     background:#1e2341;
@@ -396,11 +422,10 @@ hr.red-rule{
     margin:0 2em;
     border-radius:.25em;
     padding-top: 10px;
-    margin-top:10px
-    
+    margin-top: 10px;
 }
 
-hr.foot-rule{
+hr.foot-rule {
     border:0;
     height:4px;
     background:#6B305C;
@@ -409,21 +434,18 @@ hr.foot-rule{
     margin:0 1em;
     border-radius:.25em;
     padding-top: .2px;
-    margin-top:25px
-    
+    margin-top:25px;
 }
 
 hr.side-rule{
     border:0;
     height:1.5px;
-    background:#65187A ;
+    background:#65187A;
     display:block;
     clear:both;
     margin:0 1em;
     border-width:.25em;
     padding-top: .2px;
-
-    
 }
 
 h1 {
@@ -436,16 +458,13 @@ h1 {
 }
 
 body1 {
-    font-family: 'Muli', sans-serif;
-   
+    font-family: 'Muli', sans-serif; 
 }
 
 #aboutYo {
     padding-top:10px;
     font-weight: bolder;
-    text-align: center;
-   
-    
+    text-align: center; 
 }
 
 h3.greeting {
@@ -462,7 +481,6 @@ h2.greeting {
     font-size: 19px;
     padding-bottom: 15px;
     color: #65187A ;
-    
 }
 
 p.slogan {
@@ -499,20 +517,18 @@ p.midd {
 }
 button {
     padding-top: 20px;
-  background: #6B305C;
+    background: #6B305C;
     opacity: .8;
- resize: 70%;
-  
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family:helvetica;
-  color: #fff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  border: solid #000 2px;
-  text-decoration: none;
-    
+    resize: 70%;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family:helvetica;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000 2px;
+    text-decoration: none;  
 }
 
 button:hover {
@@ -531,7 +547,6 @@ p.boom {
     border-color: #8B5BC8;
     line-height: normal;
     padding-bottom: 30px;
-    
 }
 
 h2.me {
@@ -544,19 +559,14 @@ p.bottom {
     margin:auto;
     font-size:12px;
     text-align: center;
-  
-    
-    
 }
-
 
 #side {
     margin: auto;
     border-radius: 25px;
     border: 2px solid #65187A ;
     width: 95%;
-    height: 1000px;
-    
+    height: 950px;
 }
 
 #sidegroups{
@@ -572,8 +582,6 @@ h3.sideTitle {
     padding-bottom: 15px;
     text-align: center;
     font-style: bold;
-    
-    
 }
 
 h3.sideTitlee {
@@ -582,31 +590,27 @@ h3.sideTitlee {
     color: #871F78;
     font-style: bold;
     padding-bottom: 15px;
-   padding-right: 30px;
+    padding-right: 30px;
     font-style: bold;
-    
-    
 }
 
 p.sides {
     font-size: 14px;
-    width: 83%;
+    width: 85%;
 }
 
 .sidea {
-    
     position: relative;
     width:33%;
     padding-bottom: 10px;
-    padding-left: 35px;
+    padding-left: 25px;
     float:left;
 }
 
 .sideb {
-   
     float:right;
     position: relative;
-    width:33%;
+    width:34%;
     font-size:15px;
     padding-bottom: 10px;
     padding-left: 55px;
@@ -615,23 +619,23 @@ p.sides {
 .sidec {
     display: inline;
     position: relative;
-    width:33%;
+    width:20%;
     font-size:15px;
     padding-bottom: 10px;
 }
 
+.nala img {
+    display: none;
+}
 
- a img { display:none; }
- a:hover img { 
+ a.nala:hover img { 
     display:block;
-     
      top: auto;
      margin: auto;
      width:60%;
      position: absolute;
      z-index: 1000;
-     float:right;
-     
+     float:right;  
 }
 
 #sideImage {
@@ -640,5 +644,10 @@ p.sides {
     align-content: center;
     margin: auto;
     padding-right: 20px;
+}
 
+p.bottom {
+    display: inline-block;
+    align-content: center;
+    
 }
