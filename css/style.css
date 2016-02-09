@@ -377,13 +377,6 @@ h1 {
     text-shadow:0 1px 0 #ede8d9; 
 }
 
-#footer {
-    font-size: 16px;
-    width:560px; 
-    display: block;
-    text-transform: uppercase;
-    align-content: center;
-}
 
 #aboutTop {
     width:50%;
@@ -392,6 +385,7 @@ h1 {
     padding-top: 15px;  
 }
 
+/*
 #icon {
     display: block;
     float:left;
@@ -401,6 +395,7 @@ h1 {
     margin: 50px;
     position: relative;
 }
+*/
 
 .main-title {
     margin:auto;
@@ -650,4 +645,26 @@ p.bottom {
     display: inline-block;
     align-content: center;
     
+}
+
+
+#footer {
+    width: 100%;
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom: 3px;
+}
+
+.socialIcon {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #404040;
+    transition: color 0.35s;
+}
+
+.socialIcon:hover {
+    color: #f8f8f8;
 }
