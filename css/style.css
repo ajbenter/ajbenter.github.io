@@ -210,11 +210,13 @@ nav a {
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1em;
+    transition: color .35s ease;
 }
 
 nav a:hover,
 nav a:focus {
 	outline: none;
+    
 }
 
 /* Effect 16: fall down */
@@ -244,6 +246,7 @@ nav a:focus {
 	-moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	opacity: 1;
+    
 }
 
 .top-menu ul li a {
@@ -561,7 +564,7 @@ p.bottom {
     border-radius: 25px;
     border: 2px solid #65187A ;
     width: 95%;
-    height: 960px;
+    height: auto;
 }
 
 #sidegroups{
@@ -664,7 +667,7 @@ p.sides {
 
 #sideImage {
     width: 95%;
-    padding-top: 25px;
+    padding-top: 35px;
     align-content: center;
     margin: auto;
     padding-right: 20px;
