@@ -407,7 +407,7 @@ hr.foot-rule{
     display:block;
     clear:both;
     margin:0 1em;
-    border-width:.25em;
+    border-radius:.25em;
     padding-top: .2px;
     margin-top:25px
     
@@ -578,6 +578,7 @@ h3.sideTitle {
 
 h3.sideTitlee {
     font-size: 22px;
+    text-align: center;
     color: #871F78;
     font-style: bold;
     padding-bottom: 15px;
