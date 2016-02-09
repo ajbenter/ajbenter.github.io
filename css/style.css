@@ -656,11 +656,9 @@ p.sides {
      margin: auto;
      width:60%;
      transition: .35s ease;
-     position: absolute;
-     left: 0px;
-    top: 0px;
-     z-index: 1000;
     padding-left: 30px;
+     position: absolute;
+     z-index: 1004;
       
 }
 
