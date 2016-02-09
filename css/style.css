@@ -493,24 +493,26 @@ p.midd {
     padding-bottom: 45px;
 }
 
-
+#buttons{
+    float:right;
+    position: absolute;
+}
 button {
     padding-top: 20px;
   background: #6B305C;
-  background-image: -webkit-linear-gradient(top, #6B305C, #6B305C);
-  background-image: -moz-linear-gradient(top, #6B305C, #6B305C);
-  background-image: -ms-linear-gradient(top, #6B305C, #6B305C);
-  background-image: -o-linear-gradient(top, #6B305C, #6B305C);
-  background-image: linear-gradient(to bottom, #6B305C, #6B305C);
+    opacity: .8;
+ resize: 70%;
+  
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Courier New;
-  color: #ffffff;
+  font-family:helvetica;
+  color: #fff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
-  border: solid #E35EAD 3px;
+  border: solid #000 2px;
   text-decoration: none;
+    
 }
 
 button:hover {
@@ -574,9 +576,20 @@ h3.sideTitle {
     
 }
 
+h3.sideTitlee {
+    font-size: 22px;
+    color: #871F78;
+    font-style: bold;
+    padding-bottom: 15px;
+   padding-right: 30px;
+    font-style: bold;
+    
+    
+}
+
 p.sides {
     font-size: 14px;
-    width: 80%;
+    width: 83%;
 }
 
 .sidea {
@@ -584,7 +597,7 @@ p.sides {
     position: relative;
     width:33%;
     padding-bottom: 10px;
-    padding-left: 15px;
+    padding-left: 35px;
     float:left;
 }
 
@@ -595,7 +608,7 @@ p.sides {
     width:33%;
     font-size:15px;
     padding-bottom: 10px;
-    padding-left: 32px;
+    padding-left: 55px;
 }
 
 .sidec {
@@ -618,5 +631,13 @@ p.sides {
      z-index: 1000;
      float:right;
      
+}
+
+#sideImage {
+    width: 95%;
+    padding-top: 25px;
+    align-content: center;
+    margin: auto;
+    padding-right: 20px;
 
 }
