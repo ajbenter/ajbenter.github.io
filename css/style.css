@@ -276,14 +276,14 @@ figure.effect-jazz figcaption::after,
 figure.effect-jazz img,
 figure.effect-jazz p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, width:70%;
 }
 
 figure.effect-jazz figcaption::after {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 70%;
 	height: 100%;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
