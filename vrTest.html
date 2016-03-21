@@ -26,8 +26,9 @@
 
 	function onload()
 	{
+
 		var c=new WebGLCanvas("div_container");
-    }
+    
 		//In this example we will construct a WebGLObject, which will contain the data of the triangle.
 		var square=new WebGLObject(c);
 		var floor=new WebGLObject(c);
@@ -73,6 +74,8 @@
 					video.play();
 					is_playing=true;
                 }
+            }
+        
 			//square.setTexture("http://www.visineat.com/js/img/hdri/country.jpg");
 			var video=square.setVideoTexture("Library_vortex_test2.mp4");
 			video.pause();
@@ -122,6 +125,9 @@
 		/**/
 		
 	}
+	}
+	}
+    
 
 	</script>
 </head>
