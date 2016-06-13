@@ -598,6 +598,7 @@ p.sides {
 }
 
 .sidea {
+	display: block;
     position: relative;
     width:25%;
     padding-bottom: 10px;
@@ -606,6 +607,7 @@ p.sides {
 }
 
 .sideb {
+	display: block;
     float: right;
     position: relative;
     width:25%;
