@@ -597,7 +597,8 @@ p.sides {
 }
 
 .sideb {
-    float: right;
+    float: right
+    display; block;
     position: relative;
     width:32%;
     padding-bottom: 10px;
