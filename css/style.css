@@ -618,7 +618,7 @@ p.sides {
 
 .sidec {
     display: inline;
-    position: relative;
+    
     width:25%;
     font-size:15px;
     padding-left: 25px;
