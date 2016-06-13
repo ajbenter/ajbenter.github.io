@@ -606,12 +606,12 @@ p.sides {
 }
 
 .sideb {
-    float:right;
+    float: right;
     position: relative;
-    width:38%;
+    width:30%;
     font-size:15px;
     padding-bottom: 10px;
-    padding-left: 55px;
+    padding-left: 25px;
 }
 
 .sidec {
@@ -620,7 +620,7 @@ p.sides {
     width:20%;
     font-size:15px;
     padding-bottom: 10px;
-    padding-left: 25px;
+    
 }
 
 #nala {
