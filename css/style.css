@@ -599,7 +599,7 @@ p.sides {
 
 .sidea {
     position: relative;
-    width:33%;
+    width:25%;
     padding-bottom: 10px;
     padding-left: 25px;
     float:left;
@@ -608,7 +608,7 @@ p.sides {
 .sideb {
     float: right;
     position: relative;
-    width:30%;
+    width:25%;
     font-size:15px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -617,7 +617,7 @@ p.sides {
 .sidec {
     display: inline;
     position: relative;
-    width:30%;
+    width:25%;
     font-size:15px;
     padding-left: 25px;
     padding-bottom: 10px;
