@@ -588,31 +588,28 @@ p.sides {
 }
 
 .sidea {
-display: block;
+
     position: relative;
-    width:32%;
+    width:33%;
     padding-bottom: 10px;
-    padding-left: 25px;
+    padding-left: 15px;
     float:left;
 }
 
 .sideb {
-display: block;
     float: right;
     position: relative;
     width:32%;
     padding-bottom: 10px;
-    padding-left: 25px;
+    padding-left: 32px;
 }
 
 .sidec {
     display: inline;
-   
-    width:15%;
+   position: relative;
+    width:33%;
+    font-size:15px;
     padding-bottom: 10px;
-    padding-left: 25px;
-    
-    
 }
 
 #nala {
