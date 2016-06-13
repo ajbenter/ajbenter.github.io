@@ -582,23 +582,13 @@ h3.sideTitle {
     font-style: bold;
 }
 
-h3.sideTitlee {
-    font-size: 22px;
-    text-align: center;
-    color: #871F78;
-    font-style: bold;
-    padding-bottom: 15px;
-    padding-right: 30px;
-    font-style: bold;
-}
-
 p.sides {
     font-size: 14px;
     width: 85%;
 }
 
 .sidea {
-	display: block;
+display: block;
     position: relative;
     width:32%;
     padding-bottom: 10px;
@@ -607,7 +597,7 @@ p.sides {
 }
 
 .sideb {
-	display: block;
+display: block;
     float: right;
     position: relative;
     width:32%;
@@ -618,11 +608,12 @@ p.sides {
 
 .sidec {
     display: inline;
-    
-    width:25%;
+   
+    width:30%;
     font-size:15px;
-    padding-left: 25px;
     padding-bottom: 10px;
+    padding-left: 25px;
+    
     
 }
 
