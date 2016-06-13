@@ -601,7 +601,6 @@ display: block;
     float: right;
     position: relative;
     width:32%;
-    font-size:15px;
     padding-bottom: 10px;
     padding-left: 25px;
 }
@@ -610,7 +609,6 @@ display: block;
     display: inline;
    
     width:15%;
-    font-size:15px;
     padding-bottom: 10px;
     padding-left: 25px;
     
