@@ -624,6 +624,7 @@ p.sides {
     color: #f8f8f8;
 }
 
+/*
 #verg{
     color: #45518D;
     text-decoration: none;
@@ -634,6 +635,7 @@ p.sides {
     top: 0px;
     z-index: 1000;
 }
+*/
 
 #verg:hover {
     color: #f8f8f8;
@@ -664,6 +666,13 @@ p.sides {
     padding-right: 20px;
 }
 
+#nf {
+    width: 80%;
+    padding-top: 30px;
+    align-content: center;
+    margin: auto;
+    padding-right: 20px;
+}
 p.bottom {
     display: inline-block;
     align-content: center;
