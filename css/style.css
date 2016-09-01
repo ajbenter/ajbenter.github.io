@@ -206,10 +206,10 @@ nav a {
 	color: #8B5BC8;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1em;
+	font-size: 3em;
     transition: color .35s ease;
 }
 
@@ -260,7 +260,7 @@ nav a:focus {
 }
 
 .top-menu ul li a:hover,.top-menu ul li a.active{
-	  color: #fff;
+	  color: #dfc3ff;
 }
 
 figure.effect-jazz {
@@ -399,6 +399,12 @@ h1 {
     position: relative;
 }
 */
+
+.header {
+    width:75%;
+    margin: auto;
+    padding: 0;
+}
 
 .main-title {
     margin:auto;
