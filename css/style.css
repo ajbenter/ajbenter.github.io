@@ -181,8 +181,8 @@ body {
 .top-menu {
     float: left;
     margin: .8% auto 0;
-    padding-top: 9px;
-    padding-bottom: 15px;
+    padding-top: 2px;
+    padding-bottom: 20px;
     width: 100%;
     text-align: center;  
 }
@@ -209,7 +209,7 @@ nav a {
 	letter-spacing: 2px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 3em;
+	font-size: 4em;
     transition: color .35s ease;
 }
 
