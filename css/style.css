@@ -1,4 +1,5 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,13 +26,14 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 45px 25px;
   padding-bottom: 100px;
+    margin: 0;
 }
 
 br { 
     display: block; line-height: 1.6em;
 } 
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+article, aside, details, figcaption, figure, footer, hgroup, menu, nav, section { 
     display: block; 
 }
 
@@ -135,11 +137,6 @@ img {
 }
 
 
-/* Anchor will cover the whole item by default */
-
-
-/* For some effects it will show as a button */
-
 .grid figure figcaption > a {
     z-index: 1000;
     text-indent: 200%;
@@ -181,8 +178,8 @@ body {
 .top-menu {
     float: left;
     margin: .8% auto 0;
-    padding-top: 9px;
-    padding-bottom: 15px;
+    padding-top: 1px;
+    padding-bottom: 20px;
     width: 100%;
     text-align: center;  
 }
@@ -199,6 +196,13 @@ body {
 	vertical-align: top;
 }
 
+.header {
+    
+    width:75%;
+    margin: auto;
+    padding: 0;
+}
+
 nav a {
 	position: relative;
 	display: inline-block;
@@ -206,10 +210,10 @@ nav a {
 	color: #8B5BC8;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
+	letter-spacing: 2px;
+	font-weight: 700;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1em;
+	font-size: 4em;
     transition: color .35s ease;
 }
 
@@ -260,7 +264,7 @@ nav a:focus {
 }
 
 .top-menu ul li a:hover,.top-menu ul li a.active{
-	  color: #fff;
+	  color: #dfc3ff;
 }
 
 figure.effect-jazz {
