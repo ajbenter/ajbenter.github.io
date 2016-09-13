@@ -113,7 +113,7 @@ img {
     padding: 0;
     color: #f8f8f8;
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 1.5em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -252,7 +252,7 @@ nav a:focus {
 .top-menu ul li a {
    text-decoration: none;
   color: #34353a;
-  font-size: .88em;
+  font-size: .9em;
   font-weight: 600;
   text-transform: uppercase;
   padding: 0;
