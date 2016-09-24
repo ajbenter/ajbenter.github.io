@@ -388,6 +388,13 @@ h1 {
     padding-top: 15px;  
 }
 
+#aboutTopVerg {
+    width:40%;
+    height: 40%;
+    margin:auto;
+    padding-top: 15px;  
+}
+
 /*
 #icon {
     display: block;
@@ -488,11 +495,11 @@ h2.greeting {
 }
 
 p.slogan {
-   margin-top:10px;
+   margin-top:12px;
     text-align:center;
     font-style: italic;
     color: #E35EAD;
-    font-size:20px;
+    font-size:16px;
 }
 
 p.mid {
@@ -505,6 +512,15 @@ p.mid {
     padding-bottom: 10px;
 }
 
+p.text {
+    margin: auto;
+    padding-top: 20px;
+    width:80%;
+    margin:auto;
+    word-spacing: 3px;
+    font-size:16px;
+    padding-bottom: 10px;
+}
 p.midd {
     margin: auto;
     padding-top: 5px;
@@ -527,7 +543,7 @@ button {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family:helvetica;
+    font-family:Muli;
     color: #fff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -619,16 +635,6 @@ p.sides {
     padding-bottom: 10px;
 }
 
-#nala {
-    color: #45518D;
-    text-decoration: none;
-    font-style: italic;
-    transition: color .35s ease;
-}
-
-#nala:hover {
-    color: #f8f8f8;
-}
 
 /*
 #verg{
@@ -639,7 +645,7 @@ p.sides {
     position:relative;
     left: 0px;
     top: 0px;
-    z-index: 1000;
+
 }
 */
 
@@ -647,6 +653,46 @@ p.sides {
     color: #f8f8f8;
 }
 
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 35px;
+    margin: 10px 10px 10px 0px;
+	border-radius: 10px;
+	font-family: 'Muli', cursive;
+	font-size: 17px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #45518D;
+	border-bottom: 5px solid #45758f;
+	text-shadow: 0px -2px #45758f;
+}
+
+.blue:hover
+{
+	background-color: #4597a5;
+	border-bottom: 5px solid #45758f;
+	text-shadow: 0px -2px #45758f;
+    transition: .45s ease;
+}
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
 
 .nala img {
     display: none;
