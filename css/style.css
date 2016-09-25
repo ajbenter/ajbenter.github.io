@@ -706,6 +706,7 @@ p.sides {
     padding-left: 30px;
      position: absolute;
      z-index: 1005;
+	 transition: .45s ease;
       
 }
 
