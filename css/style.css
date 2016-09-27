@@ -426,7 +426,7 @@ h1 {
 
 hr.red-rule {
     border:0;
-    height:.75em;
+    height:.35em;
     background:#1e2341;
     display:block;
     clear:both;
@@ -547,13 +547,13 @@ button {
     color: #fff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
-    border: solid #000 2px;
     text-decoration: none;  
 }
 
 button:hover {
   background: #8B5BC8;
   text-decoration: none;
+transition: .45s ease;
 }
 
 p.boom {
