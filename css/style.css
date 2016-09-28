@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background: #fcfcfc url('bg.png'); /* http://subtlepatterns.com/crossword/ */
+  background: #fffaf0;
   font-size: 62.5%;
   line-height: 1;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
