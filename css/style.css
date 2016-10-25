@@ -677,7 +677,7 @@ p.sides {
 	text-shadow: 0px -2px #45758f;
 }
 
-.blue:hover
+.blue:
 {
 	background-color: #4597a5;
 	border-bottom: 5px solid #45758f;
@@ -693,19 +693,19 @@ p.sides {
 	border-bottom: 1px solid;
 }
 
-.nala img {
+.
+img {
     display: none;
 }
 
- a.nala:hover img { 
-    display: block;
-    float: right;
-     margin: auto;
-     width:60%;
-     transition: .35s ease;
-    padding-left: 30px;
-     position: absolute;
-     z-index: 1005;
+a.nala:hover img { 
+	 display: block;
+	 float: right;
+	 margin: auto;
+	 width:60%;
+	 padding-left: 30px;
+	 position: absolute;
+	 z-index: 1005;
 	 transition: .45s ease;
       
 }
