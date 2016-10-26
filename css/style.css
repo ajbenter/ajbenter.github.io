@@ -693,14 +693,13 @@ p.sides {
 	border-bottom: 1px solid;
 }
 
-.
-img {
+.img {
     display: none;
 }
 
 a.nala:hover img { 
-	 display: block;
-	 float: right;
+	display: block;
+	float: right;
 	 margin: auto;
 	 width:60%;
 	 padding-left: 30px;
