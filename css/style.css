@@ -668,16 +668,12 @@ p.sides {
 	font-size: 17px;
 	color: #FFF;
 	text-decoration: none;	
-}
-
-.blue
-{
 	background-color: #45518D;
 	border-bottom: 5px solid #45758f;
 	text-shadow: 0px -2px #45758f;
 }
 
-.blue:hover {
+.action-button:hover {
 	background-color: #4597A5;
 	border-bottom: 5px solid #45758f;
 	text-shadow: 0px -2px #45758f;
