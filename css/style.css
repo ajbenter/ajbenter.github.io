@@ -138,7 +138,7 @@ img {
 /* Anchor will cover the whole item by default */
 
 
-/* For some effects it will show as a button */
+/* For some effects it will show as a */
 
 .grid figure figcaption > a {
     z-index: 1000;
@@ -677,12 +677,12 @@ p.sides {
 	text-shadow: 0px -2px #45758f;
 }
 
-.blue:
+.blue:hover
 {
 	background-color: #4597a5;
 	border-bottom: 5px solid #45758f;
 	text-shadow: 0px -2px #45758f;
-    transition: .45s ease;
+	transition: .45s ease;
 }
 
 
