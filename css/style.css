@@ -662,7 +662,7 @@ p.sides {
 {
 	position: relative;
 	padding: 10px 35px;
-    margin: 10px 10px 10px 0px;
+    	margin: 10px 10px 10px 0px;
 	border-radius: 10px;
 	font-family: 'Muli', cursive;
 	font-size: 17px;
@@ -678,7 +678,7 @@ p.sides {
 }
 
 .blue:hover {
-	background-color: #4597a5;
+	background-color: #4597A5;
 	border-bottom: 5px solid #45758f;
 	text-shadow: 0px -2px #45758f;
 	transition: .45s ease;
