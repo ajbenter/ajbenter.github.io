@@ -677,8 +677,7 @@ p.sides {
 	text-shadow: 0px -2px #45758f;
 }
 
-.blue:hover
-{
+.blue:hover {
 	background-color: #4597a5;
 	border-bottom: 5px solid #45758f;
 	text-shadow: 0px -2px #45758f;
