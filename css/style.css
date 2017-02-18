@@ -388,9 +388,13 @@ h1 {
     padding-top: 15px;  
 }
 
-#aboutImage:hover {
+#aboutTop:hover {
 	background-image: url('images/me_hover.png');
 	transition: .45s ease;
+	width:50%;
+    height: 50%;
+    margin:auto;
+    padding-top: 15px
 	
 }
 
