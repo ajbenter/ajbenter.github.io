@@ -388,8 +388,12 @@ h1 {
     padding-top: 15px;  
 }
 
-#aboutImage:hover {
-    background-image: url('me_hober.png');
+#aboutTop:hover {
+    background-image: url('me_hover.png');
+	width:50%;
+    height: 50%;
+    margin:auto;
+    padding-top: 15px;
 }
 
 #aboutTopVerg {
