@@ -388,14 +388,14 @@ h1 {
     padding-top: 15px;  
 }
 
+#aboutImage {
+	width:100%
+}
+
 #aboutImage:hover {
 	background-image: url('images/me_hover.png');
 	transition: .45s ease;
-	width:50%;
-    	height: 50%;
-   	 margin:auto;
-    	padding-top: 15px
-	
+	width:100%
 }
 
 #aboutTopVerg {
