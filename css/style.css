@@ -388,6 +388,18 @@ h1 {
     padding-top: 15px;  
 }
 
+.nerdImage img {
+    display: none;
+}
+
+.nerdImage:hover img { 
+	display: block;
+	 position: absolute;
+	 z-index: 1005;
+	 transition: .45s ease;
+      
+}
+
 #aboutTopVerg {
     width:40%;
     height: 40%;
