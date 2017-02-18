@@ -389,7 +389,7 @@ h1 {
 }
 
 #aboutImage:hover {
-	background-image: url('me_hover.png');
+	background-image: url('images/me_hover.png');
 	transition: .45s ease;
 	
 }
