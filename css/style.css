@@ -436,13 +436,14 @@ h1 {
 
 hr.red-rule {
     border:0;
-    height:.35em;
+    height:.15em;
     background:#1e2341;
     display:block;
     clear:both;
     margin:0 2em;
     border-radius:.25em;
     padding-top: 10px;
+    padding-bottom: 40px;
     margin-top: 10px;
 }
 
